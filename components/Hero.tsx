@@ -20,8 +20,8 @@ const Hero = () => {
                 {/* <h2 className='uppercase tracking-widest text-center text-xs text-blue-100 max-w-80'>
                     Dynamic Web Magic with Next.js
                 </h2> */}
-                <TextGenerateEffect words='Transforming Ideas into Powerful Web Applications. ⚡' className='text-center text-4xl font-bold mt-4'/>
-                <p className='text-center md:tracking-wider mb-6 '>Hi, I am Harshed, a full stack developer based in Kochi.</p>
+                <TextGenerateEffect words='Transforming Ideas into Powerful Applications. ⚡' className='text-center text-4xl font-bold mt-4'/>
+                <p className='text-center md:tracking-wider mb-6 '>Hi, I am Harshed, a full stack developer based in Kochi</p>
                 <a href="#about" className='flex justify-center text-center'>
                     <MagicButton 
                     title='Work'
