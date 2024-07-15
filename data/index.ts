@@ -8,12 +8,12 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Building successful projects with client collaboration and open communication at the forefront. ",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/b1.jpg",
     spareImg: "",
   },
   {
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a fashion SaaS platform",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,36 +72,70 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "LearnMate AI",
+    des: "AI-powered learning platform designed to empower students from diverse backgrounds and learning abilities.",
+    img: "/learnmate.mov",
+    iconLists: ["/re.svg", "/tail.svg", "/dock.svg", "/fm.svg"],
+    link: "https://intel-hack.pages.dev",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
+    title: "MetaSave",
+    des: "IoT based framework that integrates Multimodal Machine Learning and Blockchain techniques to remotely monitor patients from the care of their homes and securely relay this information between healthcare providers and families.",
+    img: "/metasave.mov",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://metasave.netlify.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
+    title: "Bloggy",
+    des: "bloggy is a decentralized blogging application built on the Internet Computer (ICP) platform",
+    img: "/bloggy.mov",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "/https://dybl3-uyaaa-aaaal-qjfuq-cai.icp0.io",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
+    title: "Oracle Aggregator",
+    des: "This project is a web-based Oracle Aggregator Dashboard built using React. It aggregates and displays real-time cryptocurrency price data from multiple sources including Chainlink and Pyth.",
+    img: "/oracle.mov",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://oracle-aggregator-pearl.vercel.app",
   },
+  {
+    id: 5,
+    title: "Kochi Metro Analytics",
+    des: "Traffic control details dashboard of Kochi Metro",
+    img: "/natpac.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://kochimetro.vercel.app",
+  },
+  
+  {
+    id: 6,
+    title: "Code Red",
+    des: "Code Red is an AI-powered virtual assistant designed to provide critical and real time information and guidance during emergency situations, such as floods, to help people make informed decisions for their safety and survival based on their current location.",
+    img: "/codered.png",
+    iconLists: ["/ts.svg"],
+    link: "https://github.com/harshedabdulla/code-red",
+  },
+  {
+    id: 7,
+    title: "Dresscoded",
+    des: "Ecommerce platform for dress and apparels for the genz age group.",
+    img: "/dresscoded.png",
+    iconLists: ["/ts.svg"],
+    link: "https://ryzzin.vercel.app",
+  },
+  {
+    id: 8,
+    title: "Starlet",
+    des: "The official website of annual hackathon named, Starlet organized by Mind Empowered",
+    img: "/starlet.png",
+    iconLists: ["/ts.svg"],
+    link: "https://ryzzin.vercel.app",
+  },
+
 ];
 
 export const testimonials = [

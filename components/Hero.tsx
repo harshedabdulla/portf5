@@ -15,12 +15,12 @@ const Hero = () => {
       {/* Radial gradient for the container to give a faded look */}
       <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
-        <div className='flex justify-center relative my-20 z-10'>
+        <div className='flex justify-center relative my-12 z-10'>
             <div className='max-w-[89vh]'>
-                {/* <h2 className='uppercase tracking-widest text-center text-xs text-blue-100 max-w-80'>
-                    Dynamic Web Magic with Next.js
-                </h2> */}
-                <TextGenerateEffect words='Transforming Ideas into Powerful Applications. ⚡' className='text-center text-4xl font-bold mt-4'/>
+                <h2 className='uppercase tracking-widest flex justify-center text-center text-xs text-green-100'>
+                    Invite Tranquility
+                </h2>
+                <TextGenerateEffect words='Transforming Ideas into Powerful Applications. ⚡' className='text-center text-5xl font-bold'/>
                 <p className='text-center md:tracking-wider mb-6 '>Hi, I am Harshed, a full stack developer based in Kochi</p>
                 <a href="#about" className='flex justify-center text-center'>
                     <MagicButton 
