@@ -11,7 +11,7 @@ interface MagicButtonProps {
 const MagicButton: React.FC<MagicButtonProps> = ({ title, icon, position, handleClick, otherClasses }) => {
   return (
     <button
-      className={`bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6 text-white inline-block ${otherClasses}`}
+      className={`bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-sm font-semibold leading-6 text-white inline-block ${otherClasses}`}
       onClick={handleClick}
     >
       <span className="absolute inset-0 overflow-hidden rounded-full">

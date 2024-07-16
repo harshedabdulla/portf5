@@ -22,7 +22,7 @@ const Hero = () => {
                 </h2>
                 <TextGenerateEffect words='Transforming Ideas into Powerful Applications. ⚡' className='text-center text-5xl font-bold'/>
                 <p className='text-center md:tracking-wider mb-6 '>Hi, I am Harshed, a full stack developer based in Kochi</p>
-                <a href="#about" className='flex justify-center text-center'>
+                <a href="#about" className='flex justify-center text-center px-8'>
                     <MagicButton 
                     title='Work'
                     icon={<FaLocationArrow/>}
