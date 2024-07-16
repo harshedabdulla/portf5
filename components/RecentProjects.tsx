@@ -6,12 +6,12 @@ const RecentProjects = () => {
   return (
     <div className='py-16' id="projects">
         <h1 className='heading'>A small selection of {" "} <span className='text-green-300'>recent projects</span></h1>
-        <div className='flex flex-wrap justify-center items-center p-4 gap-x-24 gap-y-6 mt-8'>
+        <div className='flex flex-wrap justify-center items-center p-4 gap-x-24 gap-y-6'>
             {projects.map(({id, title, des, img, iconLists, link}) => (
-                <div key={id} className='lg:min-h-[32.5rem] sm:h-[41rem] h-[28rem] flex items-center justify-center sm:w-[400px] w-[60vw]'>
+                <div key={id} className='lg:min-h-[32.5rem] sm:h-[8rem] h-[26rem] flex items-center justify-center sm:w-[400px] w-[60vw]'>
                     <PinContainer title={link} href={link}>
-                        <div className='relative flex items-center justify-center sm:w-[400px] sm:h-[40vh] w-[80vw] overflow-hidden h-[30vh] mb-10'>
-                            <div className='relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]'>
+                        <div className='relative flex items-center justify-center sm:w-[400px] sm:h-[28vh] w-[80vw] overflow-hidden h-[28vh] mb-8'>
+                            <div className='relative w-full h-full overflow-hidden lg:rounded-4xl bg-[#13162d]'>
                                 <img src='/bg.png' alt={title} />
                             </div>
                             <img src={img} 
