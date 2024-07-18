@@ -141,33 +141,57 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    "Awarded Second Prize in Asia's First DeAI Hackathon By elna.ai",
+    name: "Issued by elna.ai · May 2024",
+    title: "Built an AI based Dapp using ICP and Motoko stack",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awarded First Prize in AI/ML track in GTA Sandshores Hackathon",
+    name: "Issued by GTech MuLearn · Nov 2023",
+    title: "Developed a WhatsApp Bot for AI based disaster rescue notifications",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awarded TinyMCE Track Winner in Make-a-ton 6.0.",
+    name: "Issued by School of Engineering, CUSAT · Nov 2023",
+    title: "Developed a chrome extension to help track,record,analyse and provide mental health suggestions.",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awarded runner up in Intel oneAPI hackathon",
+    name: "Issued by Intel Corporation · Jul 2023",
+    title: "Developed a web application to help students learn from their study material in an easier way.",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Awarded best AI track prize at HACK SRM 4.0 hackathon",
+    name: "Issued by SRM University, Andhra Pradesh · May 2023",
+    title: "Developed an application which helps students learn quickly using teachers notes and pyq papers. It then guides students with important topics, adjusting to their understanding.",
+  },
+  {
+    quote:
+      "Awarded honorable mentions at BlockCamp blockchain hackathon",
+    name: "Issued by Amrita Vishwa Vidyapeetham & Vidyut 23 · May 2023",
+    title: "We created a decentralized version of chit fund. where there is no intermediary or risk like in the traditional way. We used thirdweb,polygon,react and tailwind for building the application.",
+  },
+  {
+    quote:
+      "Awarded runner up in Slashkey 2.0 hackathon",
+    name: "Issued by IEEE CS Kerala Society, Intel, IEEE CUSAT SB · May 2023",
+    title: "Developed an AI doctor assistant which can help doctors to analyse the patient before consultation through an AI avatar video calling the patient and doing a series of test, including throat,eyes and skin.",
+  },
+  {
+    quote:
+      "Awarded 1st place in BeachHack 5 hackathon",
+    name: "Issued by Christ College of Engineering · Dec 2022",
+    title: "Created an all-in-one app for fishermen community to navigate safely, rent equipment, and exclusive chatting feature to build their own community. React, PWA, Tailwind, Firebase and Maps API were used in this project.",
+  },
+  {
+    quote:
+      "Awarded 2nd place in TCS Euphoria hackathon",
+    name: "Issued by Tata Consultancy Services and Rajagiri College of Social Sciences · Aug 2022",
+    title: "Developed a web app to help manage garbage in an easy and efficient manner. Firebase and React was used in development.",
   },
 ];
 
