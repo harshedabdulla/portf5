@@ -75,7 +75,7 @@ export const projects = [
     title: "LearnMate AI",
     des: "AI-powered learning platform designed to empower students from diverse backgrounds and learning abilities.",
     img: "/lm.png",
-    iconLists: ["/re.svg", "/tail.svg", "/dock.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/dock.svg", "/cloud.svg", "/lambda.svg","/gpt.svg"],
     link: "https://intel-hack.pages.dev",
   },
   {
@@ -83,7 +83,7 @@ export const projects = [
     title: "MetaSave",
     des: "IoT based framework that integrates Multimodal Machine Learning and Blockchain techniques to remotely monitor patients from the care of their homes and securely relay this information between healthcare providers and families.",
     img: "/metasave.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/wha.svg", "/pinata.png", "/nodejs.svg"],
     link: "https://metasave.netlify.app",
   },
   {
@@ -91,7 +91,7 @@ export const projects = [
     title: "Bloggy",
     des: "bloggy is a decentralized blogging application built on the Internet Computer (ICP) platform",
     img: "/bloggy.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/re.svg", "/bootstrap.svg", "/icp.png", "artemis.png", "plug.png"],
     link: "/https://dybl3-uyaaa-aaaal-qjfuq-cai.icp0.io",
   },
   {
@@ -99,7 +99,7 @@ export const projects = [
     title: "Oracle Aggregator",
     des: "This project is a web-based Oracle Aggregator Dashboard built using React. It aggregates and displays real-time cryptocurrency price data from multiple sources including Chainlink and Pyth.",
     img: "/oracle.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/bitcoin.svg", "/solana.svg", "/coinbase.svg"],
     link: "https://oracle-aggregator-pearl.vercel.app",
   },
   {
@@ -107,7 +107,7 @@ export const projects = [
     title: "Kochi Metro Analytics",
     des: "Traffic control details dashboard of Kochi Metro",
     img: "/natpac.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/graph.png", "/rest.png"],
     link: "https://kochimetro.vercel.app",
   },
   
@@ -116,7 +116,7 @@ export const projects = [
     title: "Code Red",
     des: "Code Red is an AI-powered virtual assistant designed to provide critical and real time information and guidance during emergency situations, such as floods, to help people make informed decisions for their safety and survival based on their current location.",
     img: "/codered.png",
-    iconLists: ["/ts.svg"],
+    iconLists: ["/js.svg","/nodejs.svg","wha.svg","/aws.svg"],
     link: "https://github.com/harshedabdulla/code-red",
   },
   {
@@ -124,7 +124,7 @@ export const projects = [
     title: "Dresscoded",
     des: "Ecommerce platform for dress and apparels for the genz age group.",
     img: "/ryzz.png",
-    iconLists: ["/ts.svg"],
+    iconLists: ["/re.svg","tail.svg","strapi.png"],
     link: "https://ryzzin.vercel.app",
   },
   {
@@ -132,7 +132,7 @@ export const projects = [
     title: "Starlet",
     des: "The official website of annual hackathon named, Starlet organized by Mind Empowered",
     img: "/starlet.png",
-    iconLists: ["/ts.svg"],
+    iconLists: ["/js.svg"],
     link: "https://starlet.mind-empowered.org/",
   },
 
@@ -198,33 +198,27 @@ export const testimonials = [
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Elna.ai",
+    img: "/elna.png",
+    nameImg: "/elna.png",
   },
   {
     id: 2,
-    name: "appwrite",
+    name: "intelo",
     img: "/app.svg",
-    nameImg: "/appName.svg",
+    nameImg: "/intelo.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
+    name: "natpac",
     img: "/host.svg",
-    nameImg: "/hostName.svg",
+    nameImg: "/natpac.webp",
   },
   {
     id: 4,
-    name: "stream",
+    name: "xena",
     img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    nameImg: "/xena.png",
   },
 ];
 
