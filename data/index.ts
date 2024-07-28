@@ -1,7 +1,10 @@
+import { time } from "console";
+
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -225,31 +228,35 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "DeAI Intern",
+    desc: "Developed a complete blogging application using the Internet Computer Protocol stack.",
+    time: "Jun 2024 - Jul 2024 · 2 mos",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/elna.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Software Development Intern",
+    desc: "Worked on the user feedback capture module, to get information about users feedback about a prompt reply.",
+    time: "Nov 2023 - Jun 2024 · 8 mos",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/intelo.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Research And Development Intern",
+    desc: "Conducted data analysis of Kochi metro users to predict peak times and traffic patterns.",
+    time: "Nov 2023 - Feb 2024 · 4 mos",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "/natpac.webp",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Frontend Intern",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    time: "Jul 2022 - Oct 2022 · 4 mos",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/xena.png",
   },
 ];
 
