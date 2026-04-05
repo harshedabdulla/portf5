@@ -26,11 +26,16 @@ const config = {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-outfit)", "ui-sans-serif", "system-ui"],
+        serif: ["var(--font-playfair)", "ui-serif", "Georgia"],
+        mono: ["var(--font-jetbrains-mono)", "ui-monospace", "SFMono-Regular"],
+      },
       colors: {
         black: {
           DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
+          100: "#000000",
+          200: "rgba(20, 20, 20, 0.75)",
           300: "rgba(255, 255, 255, 0.125)",
         },
         white: {

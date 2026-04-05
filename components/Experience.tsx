@@ -1,27 +1,35 @@
 import { workExperience } from '@/data'
 import React from 'react'
-import { Button } from './ui/moving-border'
+import { SpotlightCard } from './ui/SpotlightCard'
 
 const Experience = () => {
   return (
-    <div className='pt-2 pb-16' id="experience">
-        <h1 className='heading pb-12'>Work {" "} <span className='text-blue-300'>Experience</span></h1>
-        <div className='w-full mt-4 grid lg:grid-cols-4 grid-cols-1 gap-10'>
+    <div className='py-16 w-full max-w-7xl mx-auto' id="experience">
+        <h1 className='text-3xl md:text-5xl font-bold text-center text-white drop-shadow-lg mb-16'>
+          Work {" "} 
+          <span className='text-neutral-300 italic font-serif'>
+            Experience
+          </span>
+        </h1>
+        
+        <div className='w-full grid lg:grid-cols-2 grid-cols-1 gap-8 px-4'>
           {workExperience.map((card) => (
-            <Button 
+            <SpotlightCard 
               key={card.id}
-              duration={Math.floor(Math.random() * 10000) + 10000}
-              borderRadius='.3rem'
-              className='flex-1 text-white border-neutral-200 dark:border-slate-800'>
-              <div className='flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2 h-56'>
-                <img src={card.thumbnail} alt={card.thumbnail} className='lg:w-32 md:w-20 w-16' />
-                <div className='lg:ms-5'>
-                  <h1 className='text-start text-xl md:text-2xl font-bold'>{card.title}</h1>
-                  <p className='text-start text-white-100 mt-3 font-semibold'>{card.desc}</p>
-                  <p className='text-start text-white-200 mt-3'>{card.time}</p>
+              className='h-full w-full'>
+              <div className='flex flex-col lg:flex-row items-start p-6 lg:p-8 h-full w-full'>
+              
+                <img src={card.thumbnail} alt={card.title} className='w-20 md:w-24 lg:w-28 mb-6 lg:mb-0 grayscale opacity-80' />
+                
+                <div className='lg:ms-8 flex flex-col justify-center w-full'>
+                  <div className='flex justify-between items-start mb-2'>
+                    <h2 className='text-xl md:text-2xl font-bold text-white'>{card.title}</h2>
+                    <p className='font-mono text-[10px] md:text-xs text-zinc-400 bg-black/40 backdrop-blur-md px-2 py-1 rounded border border-neutral-700/50'>{card.time}</p>
+                  </div>
+                  <p className='text-neutral-400 font-light text-sm md:text-base leading-relaxed mt-2'>{card.desc}</p>
                 </div>
               </div>
-            </Button>
+            </SpotlightCard>
           ))}
         </div>
    </div>

@@ -1,12 +1,13 @@
 "use client";
 import { useState } from "react";
+import dynamic from "next/dynamic";
 import { cn } from "@/lib/utils";
 import { IoCopyOutline } from "react-icons/io5";
-import Lottie from "react-lottie";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 import { BackgroundGradientAnimation } from "./BackgroundGradientAnimation";
-import { GlobeDemo } from "./GridGlobe";
 import animationData from "@/data/confetti.json";
-import MagicButton from "../ui/MagicButton";
+import { FrameButton } from "./FrameButton";
+import { SpotlightCard } from "./SpotlightCard";
 
 export const BentoGrid = ({
   className,
@@ -51,14 +52,6 @@ export const BentoGridItem = ({
 
   const [copied, setCopied] = useState(false);
 
-  const defaultOptions = {
-    loop: copied,
-    autoplay: copied,
-    animationData: animationData,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice",
-    },
-  };
 
   const handleCopy = () => {
     const text = "harshed2004@gmail.com";
@@ -66,17 +59,13 @@ export const BentoGridItem = ({
     setCopied(true);
   };
   return (
-    <div
+    <SpotlightCard
       className={cn(
-        "row-span-1 overflow-hidden rounded-3xl group/bento relative hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 border border-white/[0.1]",
+        "row-span-1 group/bento w-full h-full",
         className
       )}
-      style={{
-        background: "rgb(4,7,29)",
-        backgroundColor:
-          "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-      }}
     >
+      <div className="justify-between flex flex-col space-y-4 w-full h-full">
        <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
@@ -127,32 +116,29 @@ export const BentoGridItem = ({
           </div>
           
 
-          {id === 2 && <GlobeDemo />}
-
-      
           {/* Tech stack list div */}
           {id === 3 && (
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               {/* tech stack lists */}
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                {['ReactJS','NextJS', 'TypeScript', 'Java', 'Blockchain'].map((item, i) => (
+                {['Rust','Solidity', 'Foundry', 'Hardhat'].map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-1 lg:px-3 py-2 px-3 text-xs opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-none border border-neutral-800 text-center bg-[#111] text-neutral-400 font-mono"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-none text-center bg-[#111]"></span>
               </div>
               <div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
-                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
-                {['AWS','NodeJS','MongoDB', 'ICP'].map((item, i) => (
+                <span className="lg:py-4 lg:px-3 py-4 px-3 rounded-none text-center bg-[#111]"></span>
+                {['Node.js','TypeScript','AWS', 'ICP'].map((item, i) => (
                   <span
                     key={i}
                     className="lg:py-1 lg:px-3 py-2 px-3 text-xs opacity-50 
-                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    lg:opacity-100 rounded-none border border-neutral-800 text-center bg-[#111] text-neutral-400 font-mono"
                   >
                     {item}
                   </span>
@@ -168,20 +154,21 @@ export const BentoGridItem = ({
                   }`}
               >
                 {/* <img src="/confetti.gif" alt="confetti" /> */}
-                <Lottie options={defaultOptions} height={200} width={400} />
+                <Lottie animationData={animationData} loop={copied} autoplay={copied} style={{ height: 200, width: 400 }} />
               </div>
 
-              <MagicButton
-                title={copied ? "Email is Copied!" : "Copy my email address"}
+              <FrameButton
+                title={copied ? "Email Copied!" : "Copy Address"}
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
-                otherClasses="!bg-[#161A31]"
+                otherClasses="!bg-black border-neutral-700 text-xs w-full lg:w-auto"
               />
             </div>
           )}
     </div>
     </div>
     </div>
+    </SpotlightCard>
   );
 };
