@@ -14,7 +14,7 @@ import { AmbientMesh } from "@/components/ui/AmbientMesh";
 
 export default function Home() {
   return (
-    <main className="relative bg-[url('/bg-chalk.png')] bg-cover bg-fixed bg-center flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
+    <main className="relative bg-black flex justify-center items-center flex-col overflow-clip mx-auto sm:px-10 px-5">
       <LoadingScreen />
       <AmbientMesh />
       <div className="max-w-7xl w-full relative z-10 pt-24">

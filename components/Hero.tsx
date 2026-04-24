@@ -16,10 +16,9 @@ const Hero = () => {
                   <span className="-rotate-90 origin-left whitespace-nowrap">Vol. 1 / 2026</span>
                 </div>
 
-                <h1 className='text-left text-6xl md:text-[100px] lg:text-[130px] font-bold tracking-tighter text-white mb-2 leading-[0.9] uppercase'>
-                  HARSHED
-                  <br />
-                  ABDULLA<span className="text-[#f43f5e]">.</span>
+                <h1 className='text-left text-6xl md:text-[100px] lg:text-[130px] font-bold tracking-tighter text-white mb-4 leading-[0.9] uppercase flex flex-col'>
+                  <span>HARSHED</span>
+                  <span className="font-serif italic font-light lowercase text-neutral-400 mt-2">abdulla.</span>
                 </h1>
                 
                 <h2 className='tracking-[0.2em] md:tracking-[0.4em] uppercase text-[10px] md:text-xs text-neutral-500 mb-8 font-mono mt-6 flex items-center gap-4'>
